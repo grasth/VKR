@@ -1,0 +1,97 @@
+.container-login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #f3f3f3;
+}
+
+.wrap-login {
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.form-title {
+    display: block;
+    color: #555;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.wrap-input {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+}
+
+input {
+    height: 60px;
+    padding: 0 25px;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.signin-button {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+    background-color: #4272d7;
+    color: #fff;
+    font-size: 14px;
+    transition: all .4s;
+}
+
+button {
+    outline: none !important;
+    border: none;
+    background: 0 0;
+}
+
+button:hover {
+    background-color: #343d46;
+}
+
+.forgot-text {
+    padding-bottom: 4px;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.text1 {
+    color: #999;
+}
+
+.text2 {
+    color: #4272d7;
+}
+
+.create-account-text {
+    text-align: center;
+}
