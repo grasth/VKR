@@ -1,3 +1,6 @@
+body, html {
+    font-family: Segoe UI;
+}
 .container-login {
     width: 100%;
     min-height: 100vh;
@@ -19,6 +22,11 @@
     padding-left: 55px;
     padding-top: 55px;
     padding-bottom: 55px;
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -o-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -ms-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
 }
 
 .login-form {
@@ -64,7 +72,7 @@ input {
     height: 60px;
     background-color: #4272d7;
     color: #fff;
-    font-size: 14px;
+    font-size: 17px;
     transition: all .4s;
 }
 
